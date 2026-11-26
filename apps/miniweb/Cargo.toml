@@ -1,0 +1,12 @@
+[package]
+name = "miniweb"
+edition.workspace = true
+license.workspace = true
+version.workspace = true
+
+[dependencies]
+cmf-wp2-app.workspace = true
+companion-rpc.workspace = true
+[[bin]]
+name = "miniweb"
+bench = false
