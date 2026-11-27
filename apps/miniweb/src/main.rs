@@ -9,7 +9,6 @@ mod device {
     use companion_rpc::{Call, Got, http_get, HttpHead, utf8_cut};
 
     cmf_wp2_app::entry!(main);
-    cmf_wp2_app::app_icon!();
 
     const WHITE: u16 = 0xFFFF;
     const BLACK: u16 = 0x0000;
